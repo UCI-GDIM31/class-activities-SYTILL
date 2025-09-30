@@ -1,7 +1,8 @@
-# in-class-activities
+# in-class-activities-finished
 ## Devlogs
 ### W1
-Hello World!
+Components are the lego pieces, gameobjects are the complete lego buildings, 
+and scenes are the towns where I place those buildings.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
