@@ -11,6 +11,11 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 2. Logically the number ball bounced should be represented in natural number (int)
 3. Every line of the code should be end with the semicolon.
 
+### W3
+
+Table Number [1]: The input is a float value which represents the time that player pressed a key, and the output is boolean that tells you whether or not the player accurately hit a beat. 
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
