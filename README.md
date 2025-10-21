@@ -15,6 +15,15 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 Table Number [1]: The input is a float value which represents the time that player pressed a key, and the output is boolean that tells you whether or not the player accurately hit a beat. 
 
+### W4
+Table Number 1.
+
+line 5: _moveSpeed is a memeber variablem and the type is float.
+line 22: translation is a local variable and the type is float. It gets the float value from up down inputs, and multiply by _moveSpeed and deltaTime.
+lnie 25: the method Translate moves the z value of transform by translation. This method takes x, y, z float values as parameters.
+
+1. I put rigidbody on Cat and SoccerBall because these two are the moving objects, and I checked the IsTriggerOn on Goal because it checks the collision.
+2. Everything worked fine.
 
 ## Open-Source Assets
 ### W1
