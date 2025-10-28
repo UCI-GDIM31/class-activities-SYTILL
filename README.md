@@ -25,6 +25,20 @@ lnie 25: the method Translate moves the z value of transform by translation. Thi
 1. I put rigidbody on Cat and SoccerBall because these two are the moving objects, and I checked the IsTriggerOn on Goal because it checks the collision.
 2. Everything worked fine.
 
+### W5
+Part 1. We know that Transform.position can be set using Vector3, but is it same for Transform.rotation?
+==> No, it should be set with Quaternion.Euler(), which takes Vector3 as an input.
+
+Part 2.
+Overall plan
+1. create target transform variable
+2. create a class and add Monobehavior to attach as a component
+3. set the target tranfrom to public to assign it from the inspector
+4. create private NavMeshAgent and use GetComponent to initiate on Start()
+5. call NavMeshAgent.SetDestination() on the target inside of Update() so that user can change the target in game using the inspector
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
