@@ -38,6 +38,20 @@ Overall plan
 5. call NavMeshAgent.SetDestination() on the target inside of Update() so that user can change the target in game using the inspector
 
 
+### W6
+Part 1. Worked on Unity Engine [link](https://docs.google.com/document/d/1_oQY0junK3b37PITxN8uItEEPKJGHvci47NArvtUxiQ/edit?usp=sharing)
+
+Part 2. 
+- attached to all bat
+- member variable: 
+    - public float speed (set to public to be tunable)
+    - private bool isChasing (if is on --> chase / off --> no chase)
+- method:
+    - public void StopChasing() & StartChasing() --> flip isChasing
+    - Update() --> constantly move bat
+    
+
+
 
 ## Open-Source Assets
 ### W1
