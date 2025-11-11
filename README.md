@@ -51,7 +51,10 @@ Part 2.
     - Update() --> constantly move bat
     
 
+### W7
+Part 1. reviewed and added extra info on each section [link](https://docs.google.com/document/d/1RbOJV14KBQmt5sQBiYGuODTakWBMyocLs59OTx8vLRQ/edit?usp=sharing)
 
+Part 2. The original code used Vector3.forward instead of transform.forward, and the difference is that Vector3.forward is not affected by the object's local rotation but has the fixed direction towards global z axis. 
 
 ## Open-Source Assets
 ### W1
